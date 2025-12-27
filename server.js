@@ -73,9 +73,7 @@ app.get("/validate", async(req, res) => {
 })
 
 
-app.put("/", (req, res) => {});
 
-app.delete("/", (req, res) => {});
 
 app.listen(5000, () => {
   mongoose
